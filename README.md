@@ -82,17 +82,12 @@ Encoded text looks like abstract architectural diagrams or arcane sigils, nothin
 Every character is a **square** with a notch pattern cut into one of its sides. The square has four sides but only three are used in NX-5:
 
 
-| Side   | Encodes               |
-
+| Side   | Encodes               |
 |--------|-----------------------|
-
-| Left   | Capital letters A–Z   |
-
-| Right  | Lowercase letters a–z |
-
-| Top    | Digits 0–9 + symbols  |
-
-| Bottom | Reserved              |
+| Left   | Capital letters A–Z   |
+| Right  | Lowercase letters a–z |
+| Top    | Digits 0–9 + symbols  |
+| Bottom | Reserved              |
 
 
 The side tells you **what type** of character it is, the notch pattern tells you **which** character.
@@ -268,27 +263,17 @@ The same code appears on the **left** for capitals and **right** for lowercase.
 
   
 
-| Letter | Code  | Letter | Code  | Letter | Code  |
-
+| Letter | Code  | Letter | Code  | Letter | Code  |
 |--------|-------|--------|-------|--------|-------|
-
-| A / a  | 00001 | J / j  | 01010 | S / s  | 10011 |
-
-| B / b  | 00010 | K / k  | 01011 | T / t  | 10100 |
-
-| C / c  | 00011 | L / l  | 01100 | U / u  | 10101 |
-
-| D / d  | 00100 | M / m  | 01101 | V / v  | 10110 |
-
-| E / e  | 00101 | N / n  | 01110 | W / w  | 10111 |
-
-| F / f  | 00110 | O / o  | 01111 | X / x  | 11000 |
-
-| G / g  | 00111 | P / p  | 10000 | Y / y  | 11001 |
-
-| H / h  | 01000 | Q / q  | 10001 | Z / z  | 11010 |
-
-| I / i  | 01001 | R / r  | 10010 |        |       |
+| A / a  | 00001 | J / j  | 01010 | S / s  | 10011 |
+| B / b  | 00010 | K / k  | 01011 | T / t  | 10100 |
+| C / c  | 00011 | L / l  | 01100 | U / u  | 10101 |
+| D / d  | 00100 | M / m  | 01101 | V / v  | 10110 |
+| E / e  | 00101 | N / n  | 01110 | W / w  | 10111 |
+| F / f  | 00110 | O / o  | 01111 | X / x  | 11000 |
+| G / g  | 00111 | P / p  | 10000 | Y / y  | 11001 |
+| H / h  | 01000 | Q / q  | 10001 | Z / z  | 11010 |
+| I / i  | 01001 | R / r  | 10010 |        |       |
 
   
 
@@ -300,19 +285,13 @@ Digits use the **top side** (green). `0` is assigned `00000` — the only charac
 
   
 
-| Digit | Code  | Digit | Code  |
-
+| Digit | Code  | Digit | Code  |
 |-------|-------|-------|-------|
-
-| 0     | 00000 | 5     | 00101 |
-
-| 1     | 00001 | 6     | 00110 |
-
-| 2     | 00010 | 7     | 00111 |
-
-| 3     | 00011 | 8     | 01000 |
-
-| 4     | 00100 | 9     | 01001 |
+| 0     | 00000 | 5     | 00101 |
+| 1     | 00001 | 6     | 00110 |
+| 2     | 00010 | 7     | 00111 |
+| 3     | 00011 | 8     | 01000 |
+| 4     | 00100 | 9     | 01001 |
 
   
 
@@ -324,31 +303,19 @@ Symbols use the **top side** (purple). Paired brackets are assigned consecutive 
 
   
 
-| Symbol | Code  | Symbol | Code  |
-
+| Symbol | Code  | Symbol | Code  |
 |--------|-------|--------|-------|
-
-| `(`    | 01010 | `)`    | 01011 |
-
-| `[`    | 01100 | `]`    | 01101 |
-
-| `{`    | 01110 | `}`    | 01111 |
-
-| `<`    | 10000 | `>`    | 10001 |
-
-| `!`    | 10010 | `@`    | 10011 |
-
-| `#`    | 10100 | `$`    | 10101 |
-
-| `%`    | 10110 | `/`    | 10111 |
-
-| `&`    | 11000 | `*`    | 11001 |
-
-| `'`    | 11010 | `"`    | 11011 |
-
-| `-`    | 11100 | `_`    | 11101 |
-
-| `=`    | 11110 | `+`    | 11111 |
+| `(`    | 01010 | `)`    | 01011 |
+| `[`    | 01100 | `]`    | 01101 |
+| `{`    | 01110 | `}`    | 01111 |
+| `<`    | 10000 | `>`    | 10001 |
+| `!`    | 10010 | `@`    | 10011 |
+| `#`    | 10100 | `$`    | 10101 |
+| `%`    | 10110 | `/`    | 10111 |
+| `&`    | 11000 | `*`    | 11001 |
+| `'`    | 11010 | `"`    | 11011 |
+| `-`    | 11100 | `_`    | 11101 |
+| `=`    | 11110 | `+`    | 11111 |
 
   
 
@@ -368,17 +335,12 @@ Colors are the only non-geometric hint in the output. An observer needs to know 
 
   
 
-| Color  | Hex       | Encodes               |
-
+| Color  | Hex       | Encodes               |
 |--------|-----------|-----------------------|
-
-| Blue   | `#2a6db5` | Capital letters A–Z   |
-
-| Red    | `#c0392b` | Lowercase letters a–z |
-
-| Green  | `#27ae60` | Digits 0–9            |
-
-| Purple | `#9b59b6` | Symbols               |
+| Blue   | `#2a6db5` | Capital letters A–Z   |
+| Red    | `#c0392b` | Lowercase letters a–z |
+| Green  | `#27ae60` | Digits 0–9            |
+| Purple | `#9b59b6` | Symbols               |
 
   
 
@@ -552,27 +514,17 @@ All visual parameters live in `NX_5/constants.py`. Tune them to control the outp
 
   
 
-| Constant       | Default | Effect                                                          |
-
-|----------------|---------|-----------------------------------------------------------------|
-
-| `INNER_W`      | 160     | Width of the innermost square (minimum size for first letter)   |
-
-| `INNER_H`      | 160     | Height of the innermost square                                  |
-
-| `LAYER_GAP`    | 150     | Space between each nested layer — increase for more breathing room |
-
-| `NOTCH_DEPTH`  | 40      | How far notches protrude from the square edge                   |
-
-| `SEGMENTS`     | 5       | Number of notch segments per side — do not change               |
-
-| `PADDING`      | 50      | Outer padding around each word cluster                          |
-
-| `WORD_GAP`     | 50      | Horizontal gap between word clusters                            |
-
-| `BG_PAD`       | 80      | Canvas margin around the entire output                          |
-
-| `STROKE_WIDTH` | 7       | Line thickness of the squares                                   |
+| Constant       | Default | Effect                                                            |
+|----------------|---------|-------------------------------------------------------------------|
+| `INNER_W`      | 160     | Width of the innermost square (minimum size for first letter)     |
+| `INNER_H`      | 160     | Height of the innermost square                                    |
+| `LAYER_GAP`    | 150     | Space between each nested layer — increase for more breathing room |
+| `NOTCH_DEPTH`  | 40      | How far notches protrude from the square edge                     |
+| `SEGMENTS`     | 5       | Number of notch segments per side — do not change                 |
+| `PADDING`      | 50      | Outer padding around each word cluster                            |
+| `WORD_GAP`     | 50      | Horizontal gap between word clusters                              |
+| `BG_PAD`       | 80      | Canvas margin around the entire output                            |
+| `STROKE_WIDTH` | 7       | Line thickness of the squares                                     |
 
   
 
@@ -649,23 +601,15 @@ NX-5/
 
   
 
-| Property                | QR Code | Braille | Morse | NX-5 |
-
-|-------------------------|---------|---------|-------|------|
-
-| Grid-based              | ✓       | ✓       | ✗     | ✗    |
-
-| Requires special reader | ✓       | ✗       | ✗     | ✗    |
-
-| Encodes case            | ✓       | ✓       | ✗     | ✓    |
-
-| Visually artistic       | ✗       | ✗       | ✗     | ✓    |
-
-| Topology-based          | ✗       | ✗       | ✗     | ✓    |
-
-| Readable without tools  | ✗       | ✗       | ✓     | ✓*   |
-
-| Scalable vector output  | ✗       | ✗       | ✗     | ✓    |
+| Property                 | QR Code | Braille | Morse | NX-5 |
+|--------------------------|---------|---------|-------|------|
+| Grid-based               | ✓       | ✓       | ✗     | ✗    |
+| Requires special reader  | ✓       | ✗       | ✗     | ✗    |
+| Encodes case             | ✓       | ✓       | ✗     | ✓    |
+| Visually artistic        | ✗       | ✗       | ✗     | ✓    |
+| Topology-based           | ✗       | ✗       | ✗     | ✓    |
+| Readable without tools   | ✗       | ✗       | ✓     | ✓*   |
+| Scalable vector output   | ✗       | ✗       | ✗     | ✓    |
 
   
 
