@@ -354,7 +354,7 @@ Colors are the only non-geometric hint in the output. An observer needs to know 
 
 ```bash
 
-pip install nx-5
+pip install NX-5
 
 ```
 
@@ -434,9 +434,9 @@ python -m NX_5.encoder Hello World --png
 
         ||============================================||
 
-        ||               NX-5 Encoder v1.0            ||
+                      NX-5 Encoder v1.0            
 
-        ||  left=CAP - right=lower - top=0-9+symbols  ||
+          left=CAP - right=lower - top=0-9+symbols  
 
         ||============================================||
 
@@ -481,9 +481,9 @@ python -m NX_5.decoder Hello_World.svg
 ```
         ||============================================||
 
-        ||               NX-5 Decoder v1.0            ||
+                       NX-5 Decoder v1.0            
 
-        ||      reads svg files from the encoder      ||
+              reads svg files from the encoder      
 
         ||============================================||
 Decoding: Hello_World.svg
