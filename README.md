@@ -1,4 +1,4 @@
-
+# NX-5
 > A first-of-its-kind visual encoding algorithm that uses **spatial containment** and **edge geometry** to represent text as nested squares
 
 Unlike every encoding system before it — Braille, QR codes, Morse — NX-5 does not use a flat grid of binary states. It encodes meaning through **topology**: the relationship between shapes, their edges and the space they contain.
